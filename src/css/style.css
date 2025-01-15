@@ -1,4 +1,63 @@
 body {
-    background: url(../images/bg-desktop.svg) no-repeat;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
     background-color: var(--violet);
+    background-size: cover;
+    margin: 20px;
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    padding: 0 250px;
+    gap: 30px;
+}
+
+.socials a {
+    color: white ;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.register-button {
+    border-radius: 50px;
+    background-color: white;
+    padding: 15px 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 1px 5px;
+    text-transform: uppercase;
+}
+
+.register-button:hover {
+    background-color: var(--soft-magenta);
+}
+
+.socials a:hover {
+    color: var(--soft-magenta);
 }
